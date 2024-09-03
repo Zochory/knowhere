@@ -59,7 +59,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Download code coverage results
-        uses: actions/download-artifact@v3.0.1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: codecov-result
       - name: Display structure of code coverage results
